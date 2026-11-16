@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b430b57d-0241-44a2-8c1c-25c77d4d7c3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/admin_dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/student_dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b430b57d-0241-44a2-8c1c-25c77d4d7c3c" name="Changes" comment="Creation">
       <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,9 +51,19 @@
       <option name="presentableId" value="Default" />
       <updated>1794791181759</updated>
     </task>
+    <task id="LOCAL-00001" summary="Creation">
+      <created>1794793505575</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1794793505575</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation" />
   </component>
 </project>
