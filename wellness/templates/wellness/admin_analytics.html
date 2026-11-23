@@ -1,0 +1,20 @@
+{% extends 'accounts/base.html' %}
+{% block content %}
+<div style="max-width: 800px; margin: 2rem auto; color:#f5f5f5;">
+  <h2>System-Wide Anonymized Wellness Analytics</h2>
+  <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; margin-top:1.5rem;">
+    <div style="background:#1e1e1e; padding:1.2rem; border-radius:8px; border-left:4px solid #a60000;">
+      <small>Total Platform Logs</small><h3>{{ summary.total_logs|default:0 }}</h3>
+    </div>
+    <div style="background:#1e1e1e; padding:1.2rem; border-radius:8px; border-left:4px solid #a60000;">
+      <small>Active Students Logging</small><h3>{{ summary.active_students|default:0 }}</h3>
+    </div>
+    <div style="background:#1e1e1e; padding:1.2rem; border-radius:8px; border-left:4px solid #a60000;">
+      <small>Platform Avg Stress</small><h3>{{ summary.avg_stress|floatformat:1|default:"—" }} / 10</h3>
+    </div>
+    <div style="background:#1e1e1e; padding:1.2rem; border-radius:8px; border-left:4px solid #a60000;">
+      <small>High-Stress Entries (≥ 8)</small><h3>{{ high_stress_count }}</h3>
+    </div>
+  </div>
+</div>
+{% endblock %}
