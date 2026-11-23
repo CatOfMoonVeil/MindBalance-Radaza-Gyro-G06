@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'accounts', # Your custom app is now registered
+    'accounts','wellness'
 ]
 
 MIDDLEWARE = [
