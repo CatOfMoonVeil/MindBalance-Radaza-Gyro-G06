@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b430b57d-0241-44a2-8c1c-25c77d4d7c3c" name="Changes" comment="Fixing base html">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/admin_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/admin_dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/student_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/student_dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wellness/templates/admin_analytics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wellness/templates/log_confirm_delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wellness/templates/log_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wellness/templates/log_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wellness/templates/weekly_trends.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wellness/templates/wellness/log_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/wellness/templates/wellness/log_list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
