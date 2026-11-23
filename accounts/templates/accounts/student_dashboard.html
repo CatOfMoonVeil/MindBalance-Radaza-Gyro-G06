@@ -3,4 +3,16 @@
 {% block content %}
 <h2>Student Dashboard</h2>
 <p>Welcome, {{ user.username }}! This is your personal wellness tracking space.</p>
+
+<div style="margin-top: 1.5rem; display: flex; gap: 12px; flex-wrap: wrap;">
+    <a href="{% url 'wellness:log_create' %}" style="background:#a60000; color:#fff; padding:10px 16px; border-radius:6px; text-decoration:none;">
+        + Log Daily Wellness
+    </a>
+    <a href="{% url 'wellness:log_list' %}" style="background:#1e1e1e; color:#f5f5f5; border:1px solid #a60000; padding:10px 16px; border-radius:6px; text-decoration:none;">
+        My Wellness Logs
+    </a>
+    <a href="{% url 'wellness:weekly_trends' %}" style="background:#1e1e1e; color:#f5f5f5; border:1px solid #a60000; padding:10px 16px; border-radius:6px; text-decoration:none;">
+        7-Day Stress &amp; Sleep Trends
+    </a>
+</div>
 {% endblock %}

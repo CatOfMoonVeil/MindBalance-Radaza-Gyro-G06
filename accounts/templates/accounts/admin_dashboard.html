@@ -1,6 +1,15 @@
 {% extends 'accounts/base.html' %}
 
 {% block content %}
-<h2>Administrator Dashboard</h2>
-<p>Welcome, System Admin {{ user.username }}. Manage accounts and system settings here.</p>
+<h2>Admin Dashboard</h2>
+<p>Welcome, {{ user.username }}! Manage the system and monitor anonymized platform wellness metrics.</p>
+
+<div style="margin-top: 1.5rem; display: flex; gap: 12px; flex-wrap: wrap;">
+    <a href="{% url 'wellness:admin_analytics' %}" style="background:#a60000; color:#fff; padding:10px 16px; border-radius:6px; text-decoration:none;">
+        View System-Wide Wellness Analytics
+    </a>
+    <a href="/admin/" style="background:#1e1e1e; color:#f5f5f5; border:1px solid #a60000; padding:10px 16px; border-radius:6px; text-decoration:none;">
+        Django Admin Panel
+    </a>
+</div>
 {% endblock %}
